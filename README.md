@@ -37,7 +37,7 @@ Pada train Acc dilihat terus meningkat seiring bertambahnya epoch dan di akhir p
 
 Pada train Loss grafis terus menurun setiap epoch bertambah dan nilai akhir yang sangat kecil membuat model dapat meminimalisisr kesalahan prediksi. Hal serupa pada Validation Loss.
 
-1[image](assets/smMobilenet.png)
+![image](assets/smMobilenet.png)
 
 Gambar diatas merupakan Classification Report dari model setelah dilakukan Predict. Dilihat akurasi yang mencapai angka sempuran yaitu 100%
 
@@ -48,7 +48,7 @@ Preprocessing yang dilakukan antara lain adalah resizing (224, 224), lalu rescal
 
 Modelling
 
-1[image](assets/modelIncep.png)
+![image](assets/modelIncep.png)
 
 Model Evaluation
 Berikut adalah hasil dari InceptionV3 Model yang telah dibangun :
@@ -57,17 +57,21 @@ Berikut adalah hasil dari InceptionV3 Model yang telah dibangun :
 Pada evaluasi model ini dapat dilihat bahwa grafik model ini hampir memiliki persamaan dengan model MobileNetV2 yaitu mendekati sempurna baik dari Train dan Validation Acc serta Train dan Validation Loss.
 
 ![image](assets/cmInception.png)
+
 Gambar diatas merupakan Classification Report dari model setelah dilakukan Predict. Dilihat akurasi yang mencapai angka sempuran yaitu 100%
 
 ## Local Web Deployment
 
 ### Tampilan HomePage
+
 ![image](assets/homepage.png)
 
 ### Tampilan Setelah Upload Image
+
 ![image](assets/upgambar.png)
 
 ### Tampilan Prediction result
+
 1[image](assets/hasilpredict.png)
 
 ### Author

@@ -7,4 +7,4 @@ Link Dataset yang digunakan [Dataset_Vegetables](https://www.kaggle.com/code/chi
 Preprocessing yang digunakan yaitu Resize, Normalisasi, dan Augmentasi. Dan model yang digunakan yaitu MobileNetV2 dan InceptionV3.
 
 MobileNetV2 Architecture
-![image](assets/mobilenet_arsitektur.jpeg)
+![image](assets/inceptionV3.jpg)

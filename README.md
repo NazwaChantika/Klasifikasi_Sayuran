@@ -17,17 +17,53 @@ Dataset yang digunakan adalah Klasifikasi Sayuran dengan link sebagai [berikut](
 
 ## Preprocessing & Modelling 
 
-### CNN Model
+### MobileNetV2 Model
 Preprocessing
 
-Preprocessing yang dilakukan antara lain adalah resizing (150, 150), lalu rescale / normalization dengan rentang 1./255, dilanjut dengan melakukan splitting dataset menjadi 3 (Training, Validation, dan Testing) sesuai dengan penjelasan pada Dataset.
+Preprocessing yang dilakukan antara lain adalah resizing (224, 224), lalu rescale / normalization dengan rentang 1./255, dilanjut dengan melakukan splitting dataset menjadi 3 (Training, Validation, dan Testing) sesuai dengan penjelasan pada Dataset.
 
 Modelling
 Hasil dari CNN Model yang telah dibangun sebagai berikut : 
-![image]()
+![image](assets/modelMobil.png)
 
 Model Evaluation
-Berikut adalah hasil dari fitting CNN Model yang telah dibangun :
-![image]()
+Berikut adalah hasil dari MobileNetV2 Model yang telah dibangun :
+![image](assets/mobilenetv2.png)
+Pada train Acc dilihat terus meningkat seiring bertambahnya epoch dan di akhir pelatihan nilai akurasi mendekati 1.0 sehingga model hampir sepenuhnya memprediksi dengan benar. Akurasi pada data validasi juga terus meningkat dengan stabil sehingga tidak menunjukkan model overfitting.
 
-1[image]()
+Pada train Loss grafis terus menurun setiap epoch bertambah dan nilai akhir yang sangat kecil membuat model dapat meminimalisisr kesalahan prediksi. Hal serupa pada Validation Loss.
+
+1[image](assets/smMobilenet.png)
+Gambar diatas merupakan Classification Report dari model setelah dilakukan Predict. Dilihat akurasi yang mencapai angka sempuran yaitu 100%
+
+### InceptionV3 Model
+Preprocessing
+
+Preprocessing yang dilakukan antara lain adalah resizing (224, 224), lalu rescale / normalization dengan rentang 1./255, lalu melakukan augmentasi. Setelah augmentasi selesai dilakukan, langkah terakhir adalah splitting dataset menjadi 3 (Training, Validation, dan Testing) sesuai dengan penjelasan pada Dataset.
+
+Modelling
+1[image](assets/modelIncep.png)
+
+Model Evaluation
+Berikut adalah hasil dari InceptionV3 Model yang telah dibangun :
+![image](assets/inceptionv3model.png)
+Pada evaluasi model ini dapat dilihat bahwa grafik model ini hampir memiliki persamaan dengan model MobileNetV2 yaitu mendekati sempurna baik dari Train dan Validation Acc serta Train dan Validation Loss.
+
+![image](assets/cmInception.png)
+Gambar diatas merupakan Classification Report dari model setelah dilakukan Predict. Dilihat akurasi yang mencapai angka sempuran yaitu 100%
+
+## Local Web Deployment
+
+### Tampilan HomePage
+![image](assets/homepage.png)
+
+### Tampilan Setelah Upload Image
+![image](assets/upgambar.png)
+
+### Tampilan Prediction result
+1[image](assets/hasilpredict.png)
+
+### Author
+@NazwaChantika
+
+

@@ -75,6 +75,6 @@ Gambar diatas merupakan Classification Report dari model setelah dilakukan Predi
 ![image](assets/hasilpredict.png)
 
 ### Author
-![@nNazwaChantika](https://github.com/NazwaChantika)
+![@NazwaChantika](https://github.com/NazwaChantika)
 
 

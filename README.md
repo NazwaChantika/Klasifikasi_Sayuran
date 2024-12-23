@@ -72,7 +72,7 @@ Gambar diatas merupakan Classification Report dari model setelah dilakukan Predi
 
 ### Tampilan Prediction result
 
-1[image](assets/hasilpredict.png)
+![image](assets/hasilpredict.png)
 
 ### Author
 @NazwaChantika

@@ -8,3 +8,4 @@ Link Dataset yang digunakan https://www.kaggle.com/code/chitwanmanchanda/vegetab
 Preprocessing yang digunakan yaitu Resize, Normalisasi, dan Augmentasi. Dan model yang digunakan yaitu MobileNetV2 dan InceptionV3.
 
 MobileNetV2 Architecture
+![Gambar Lokal](assets/mobilenet arsitektur.jpeg)
